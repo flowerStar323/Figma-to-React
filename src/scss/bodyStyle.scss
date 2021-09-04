@@ -1,0 +1,528 @@
+.Body-Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Brown-Card{
+    background-color: #e69900;
+    height: fit-content;
+    width: 40vw;
+    margin-right: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.Mobile-Tags-List{
+    position: absolute;
+    width: 250px;
+    height: fit-content !important;
+    z-index: 1000;
+    background: white;
+    display: none;
+    left: 0px;
+}
+.Orange-Card{
+    background-color: rgb(255, 71, 19);
+    position: relative;
+    width: 40vw;
+    border-radius: 10px;
+    padding: 15px;
+}
+.Cards{
+    display: flex;
+    flex-direction: row;
+}
+.Brown-Header{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    max-width: 160px;
+    // border: 1px solid black;
+}
+.Brown-Small-Header{
+    color: white;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.Brown-Next-Header{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.Brown-Text{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.Brown-Card-Content{
+    font-size: 13px;
+    color: white;
+}
+
+.Orange-Header{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    max-width: 160px;
+    // border: 1px solid black;
+}
+.Orange-Small-Header{
+    color: white;
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.Orange-Next-Header{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.Orange-Text{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.Orange-Card-Content{
+    font-size: 13px;
+    color: white;
+}
+.Orange-Card-Button{
+    width: 120px;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgb(175, 49, 13);
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+.Body-Tags{
+    margin-top: 30px;
+    font-size: 12px;
+    color: grey;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+.Body-Tags-List {
+    margin-right: 20px;
+    display: inline;
+}
+.Body-Tags-List:first-child {
+    border-bottom: 2px solid rgb(255, 71, 19);
+}
+.Body-Tags-List:hover {
+    border-bottom: 2px solid rgb(255, 71, 19);
+}
+.Body-Tags-Hide {
+    display: none;
+
+}
+.Body-Buttons{
+    display: flex;
+    margin-top: 30px;
+    justify-content: flex-end;
+    margin-right: 9vw;
+}
+.Body-Show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    font-size: 14px;
+    height: 40px;
+    border-radius: 5px;
+}
+.Body-Filter{
+    border-radius: 5px;
+    margin-left: 20px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    font-size: 14px;
+    align-items: center;
+    background-color:grey;
+    width: 130px;
+    color: white;
+    height: 40px;
+}
+.Body-Filter i{
+    margin-left: 10px;
+}
+.Card-bar-Header-Text{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.Body-Btn-down-Text{
+    margin-top: 20px;
+    margin-left: 9.5vw;
+    color: grey;
+    font-weight: 450;
+}
+.Body-True-Card{
+    margin-left: 9.5vw;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.Body-True-Card-subblk {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.True-Card-One{
+    // margin-right: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 17vw;
+    height: 300px;
+    // border: 1px solid black;
+    // background-color: black;
+}
+.Card-Face{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 150px;
+    // border:1px solid black;
+}
+.Card-Face img{
+    width: 120px;
+}
+.Card-Name-Header{
+    font-weight: bold;
+}
+.Card-Name-Text{
+    font-size: 14px;
+    color: grey;
+    font-weight: 500;
+}
+.Card-Name{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Card-bar{
+    margin-top: 17px;
+    background-color: rgb(255, 71, 19);
+    color:white;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Card-bar-Header{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+.Card-bar-Text{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.Body-True-Card-Left{
+    width: 10px;
+    // border: 1px solid black;
+}
+
+.Body-True-Card-Right{
+    width: 10px;
+    // border: 1px solid black;
+}
+.Card-Left-Inside{
+    margin-top: 233px;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 71, 19);
+}
+.Card-Right-Inside{
+    margin-top: 233px;
+    width: 100%;
+    height: 45px;
+    background-color: rgb(255, 71, 19);
+}
+.Card-Left-Rectangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid rgb(178, 50, 13);
+    border-left: 10px solid transparent;
+}
+
+.Card-Right-Rectangle{
+    width: 0;
+    height: 0;
+    border-top: 10px solid rgb(178, 50, 13);
+    border-right: 10px solid transparent;
+}
+.Card-Out{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.Next-Card-Bar{
+    margin-top: 30px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #322D0D;
+    margin-left: 10vw;
+    margin-right: 9.5vw;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.Next-Card-Bar-Text{
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    flex: 1;
+}
+.Nominate-Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: white;   
+    border-radius: 5px;
+}
+.Appreciate-Btn{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #322D0D;   
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+.Next-Card-Btn-Group{
+    display: flex;
+    flex: 1;
+}
+.Video-Text{
+    margin-top: 50px;
+    margin-left: 9vw;   
+}
+.Video-Small-List{
+    display: flex;
+    margin: 30px 0 100px 9.5vw;
+}
+.True-Video-One img{
+    width: 100%;
+}
+.True-Video-One{
+    // border: 1px solid black;
+    margin-left: 15px;
+}
+.Video-One{
+    max-width: 20vw;
+}
+.Video-Name{
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+    padding:10px;
+}
+.Video-Name-Header{
+    // border: 1px solid black;
+    max-width: 90%;
+    font-weight: bold;
+}
+.Video-Name-Text{
+    // border: 1px solid black;
+    color: grey;
+    font-size: 14px;
+    
+}
+.Video-Small-SubList{
+    display: flex;
+    cursor: pointer;
+}
+.Header-Right-Menu-Hide {
+    position: absolute;
+    right: 20px;
+    top: 75px;
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .Body-Tags-Hide {
+        display: block !important;
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        right:20px;
+    }
+
+    .Body-True-Card {
+        flex-direction: column !important;
+    }
+    .Video-Text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0 !important;
+        margin-bottom: 2vh !important;
+    }
+    .Video-Small-List{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1vh !important;
+    }
+    .Body-Btn-down-Text{
+        margin-left: 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Next-Card-Bar-Text{
+        margin: 1vh !important;
+    }
+    .Body-True-Card-subblk {
+        justify-content: center !important;
+    }
+    .True-Card-One {
+        width: 250px !important;
+    }
+    .Brown-Card {
+        width: 650px !important;
+        margin: 10px 0;
+    }
+    .Orange-Card {
+        width: 650px !important;
+    }
+    .Cards {
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+    .Orange-Card-Button {
+        position: relative !important;
+        margin-top: 50px !important;
+    }
+    .Body-True-Card {
+        margin-left: 0px !important;
+    }
+    .Body-Buttons {
+        justify-content: center !important;
+        align-items: center !important;
+        margin-right: 0 !important;
+    }
+    .Body-Tags {
+        // display: block !important;
+        // position: absolute !important;
+        width: 650px !important;
+        display: none;
+    }
+
+    .Header-main {
+        flex-direction: column !important;
+        margin-right: 0 !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .Header-Left-Search {
+        width: 650px !important;
+        margin-bottom: 2vh !important;
+    }
+    .Header-Left-Mark {
+        flex: 1 !important;
+    }
+    .Header-Left-Search-Input {
+        flex: 2 !important;
+    }
+    .Header-Right-Item {
+        margin-bottom: 2vh !important;
+    }
+    .Next-Card-Bar {
+        flex-direction: column !important;
+        height: auto;
+    }
+    .Next-Card-Btn-Group{
+        margin: 1vh !important;
+    }
+    .Video-One{
+        max-width: 300px !important;
+        margin-bottom: 2vh !important;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    .Header-Right-Item{
+        display: block !important;
+        display: flex !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    .Body-True-Card-subblk {
+        flex-direction: column !important;
+    }
+    .Cards {
+        align-items: center !important;
+    }
+    .Video-Small-SubList{
+        flex-direction: column;
+    }
+    .Orange-Card {
+        width: 80% !important;
+    }
+    .Brown-Card { 
+        width: 80% !important;
+    }
+    .Header-Left-Search {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+    .Header-Left-Mark {
+        width: 100% !important;
+        flex: none !important;
+    }
+    .Header-Left-Search-Input { 
+        align-items: center !important;
+        justify-content: center !important;
+        display: flex !important;
+        flex: none !important;
+        margin-left: 0 !important;
+    }
+    .Header-Right-Menu-Hide {
+        display: block !important;
+    }
+    .form-main {
+        width: 60% !important;
+    }
+
+    .Header-Right-Item {
+        display: none !important;
+    }
+    .Body-Tags {
+        display: none !important;
+    }
+}

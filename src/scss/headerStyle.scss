@@ -1,0 +1,124 @@
+.Header-Left-Mark-Title{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.Header-main{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 9vw;
+}
+.Header-Left-Mark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 60px;
+    width: 15vw;
+    background-color: rgb(255, 71, 19);
+}
+.Header-Right-Item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Header-Loginer img{
+    width:30px;
+}
+.Header-Page-Name{
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.Header-Ring{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.Header-Ring i{
+    font-size: 18px;
+}
+.Header-Loginer{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.Header-Three-Icon{
+    margin-right: 30px;
+    cursor: pointer;
+}
+.Header-Three-Icon i{
+    font-size: 18px;
+}
+.Header-Right-Time{
+    display: flex;
+    cursor: pointer;
+}
+.Ring-Icon{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+}
+.Header-Ring-Text{
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    // border:1px solid black;
+}
+.Header-Right-Area{
+    margin-left: 30px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Header-Right-Setting{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.form-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control {
+display: block;
+width: 100%;
+padding: .75rem 1rem;
+font-size: 1.1rem;
+font-weight: 500;
+line-height: 1;
+color: #181c32;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #e4e6ef;
+appearance: none;
+border-radius: .475rem;
+box-shadow: inset 0 1px 2px rgb(0 0 0 / 8%);
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-span {
+    display: block;
+padding-top: 1rem;
+font-weight: 500;
+line-height: 1;
+color: #181c32;
+border-bottom: 1px solid black;
+}
+
+.form-control.form-control-flush {
+border: 0;
+background-color: transparent;
+outline: 0!important;
+box-shadow: none;
+font-size: 16px;
+border-radius: 0;
+border-bottom: 1px solid black;
+}
+.Header-Left-Search{
+    display: flex;
+}
+.Header-Left-Search-Input{
+    margin-left: 30px;
+}
